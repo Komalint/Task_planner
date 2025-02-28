@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_todo_div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 1;
+}
+i{
+    padding-right: 30px;
+    padding-top: 6px;
+    flex-basis: 1rem;
+}
+li{
+    word-break: break-all;
+    max-width: 800px;
+    text-wrap: balance;
+    margin-right: 10px ;
+    list-style:none;
+    font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+    flex-basis: 75%;   
+   
+}
+/* li:before {
+    content: '✓    ';
+  } */
+
+.deleteBtn{
+    
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 45px;
+    padding: 8px;
+    background-color: #9333ea;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    flex-basis: 15%;
+}
+.deleteBtn:hover{
+    border-width: 2px;
+    cursor: pointer;
+    border-color: #faf5ff;
+    background-color: #8622e4;
+    
+}
+
